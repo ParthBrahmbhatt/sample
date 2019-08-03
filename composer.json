@@ -1,0 +1,23 @@
+{
+  "name": "magepixel/sample",
+  "require": {
+    "mageprince/magento2-productattachment": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ParthBrahmbhatt/magento2-productAttachment.git"
+    }
+  ],
+  "extra": {
+    "magento-root-dir": "magento-ce-232",
+    "magento-deploystrategy": "copy",
+    "map": [
+      [
+        "*",
+        "Parth/Sample"
+      ]
+    ]
+  },
+  "minimum-stability": "dev"
+}
