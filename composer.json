@@ -11,16 +11,6 @@
       "url": "https://github.com/ParthBrahmbhatt/magento2-productAttachment.git"
     }
   ],
-  /*"extra": {
-    "magento-root-dir": "magento-ce-232",
-    "magento-deploystrategy": "copy",
-    "map": [
-      [
-        "*",
-        "Parth/Sample"
-      ]
-    ]
-  },*/
   "autoload": {
     "files": [
       "src/registration.php"
@@ -28,6 +18,5 @@
     "psr-4": {
       "Parth\\Sample\\": "src"
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
