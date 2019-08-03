@@ -1,5 +1,5 @@
 {
-  "name": "parth/sample",
+  "name": "parthbrahmbhatt/sample",
   "type": "magento2-module",
   "require": {
     "mageprince/magento2-productattachment": "*"
@@ -16,7 +16,7 @@
       "src/registration.php"
     ],
     "psr-4": {
-      "Parth\\Sample\\": "src"
+      "ParthBrahmbhatt\\Sample\\": "src"
     }
   }
 }
