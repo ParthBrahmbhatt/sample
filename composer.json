@@ -1,15 +1,17 @@
 {
   "name": "parth/sample",
+  "type": "magento2-module",
   "require": {
     "mageprince/magento2-productattachment": "*"
   },
+  "version": "1.0.0",
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/ParthBrahmbhatt/magento2-productAttachment.git"
     }
   ],
-  "extra": {
+  /*"extra": {
     "magento-root-dir": "magento-ce-232",
     "magento-deploystrategy": "copy",
     "map": [
@@ -18,6 +20,14 @@
         "Parth/Sample"
       ]
     ]
+  },*/
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Parth\\Sample\\": "src"
+    }
   },
   "minimum-stability": "dev"
 }
